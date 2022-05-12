@@ -89,7 +89,7 @@ main{
     font-size: 1.5rem;
     font-weight: 300;
     color: var(--grey);
-    margin-bottom:  1rem;;
+    margin-bottom:  1rem;
 }
 
 #tasks .task{
@@ -98,19 +98,19 @@ main{
     background-color: var(--darkest);
     padding: 1rem;
     border-radius: 1rem;
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 .task .content{
     flex: 1 1 0%;
 }
 
-#tasks .content .text{
+.task .content .text{
     color: var(--light);
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     width: 100%;
-    display: block;
-    transition: 0.4s;;
+    display:block;
+    transition: 0.4s;
 }
 
 .task .actions{
@@ -120,23 +120,23 @@ main{
 
 .task .actions button{
     font-size: 1.15rem;
-    font-weight: 700;
+    font-weight:700;
     cursor: pointer;
     margin: 0 0.5rem;
     text-transform: uppercase;
     transition: 0.4s;
 }
 
-.task .actions .button:hover{
+.task .actions button:hover{
     opacity: 0.6;
 }
 
-.task .actions .button:active{
+.task .actions button:active{
     opacity: 0.3;
 }
 
 .task .actions .delete{
-    color: #8B5CF6;
+    color: maroon;
 }
 
 .no-tasks-found{
